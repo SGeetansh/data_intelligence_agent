@@ -1,0 +1,17 @@
+[project]
+name = "data-intelligence-agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Geetansh Saxena",email = "saxenageetansh1@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "google-adk (>=1.28.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
