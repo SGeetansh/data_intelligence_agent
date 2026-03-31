@@ -5,7 +5,7 @@ import logging
 import os
 import re
 
-from .utils.utils import get_env_var
+from utils.utils import get_env_var
 from google.adk.tools import ToolContext
 from google.cloud import bigquery
 from google.genai import Client
