@@ -208,3 +208,9 @@ __marimo__/
 
 # credentials
 .credentials
+
+__pycache__/
+*.pyc
+
+.adk/
+*.db
