@@ -2,6 +2,22 @@ from data_intelligence_agent.tools.bigquery.client import get_client
 
 
 def get_schema(dataset_id: str):
+    """
+    Retrieves the schema for all tables in a BigQuery dataset.
+
+    Use this tool only when schema information is required
+    for understanding the dataset or generating SQL queries.
+
+    Do not call this tool unless a dataset has already
+    been selected or explicitly provided.
+
+    Args:
+        dataset_id: The BigQuery dataset ID.
+
+    Returns:
+        A formatted text representation of all tables
+        and their columns in the dataset.
+    """
 
     client = get_client()
 
